@@ -1,18 +1,22 @@
+/* Universal selectors */
 * { 
     font-family: 'Montserrat', sans-serif;
     image-resolution: inherit;
 }
 
+/* For everything within the porfolio area */
 .portfolio { 
     background-color: #EEE2DC;
     color: #123C69;
 }
 
+/* For everything within the card-body area */
 .card-body {
     background-color: #EEE2DC;
     color: #123C69;
 }
 
+/* For everything within the NavBar */
 .navbar {
     background-color: #EEE2DC;
     color: #123C69;
@@ -22,6 +26,7 @@
 #navBar {
     justify-content: right;
 }
+
 .navbar-brand{ 
     font-size: 16px;
     color:#123C69;
@@ -44,6 +49,8 @@
 .welcome {
     margin: auto;
 }
+
+/* For the name at the top of the page */
 .ms9 {
     position: relative;
     font-weight: 500;
@@ -86,6 +93,7 @@
     background-color: #EEE2DC;
 }
 
+/* For the contact links */
 .contact-links a{
     color: #123C69;
 }

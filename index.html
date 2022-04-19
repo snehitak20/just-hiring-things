@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Link to Font-awesome -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/5.15.4/css/font-awesome.min.css">
+    <!-- Link to Font-awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/6.1.1/css/font-awesome.min.css">
 
     <!-- Link to external CSS file -->
     <link rel="stylesheet" href="./assets/style.css">
@@ -29,16 +29,20 @@
 </head>
 
 <body class="portfolio"> 
+
+    <!-- NavBar area -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand"> 
             <img src="./assets/logo.png" width="120" height="95" alt="Snehita Kolli logo"> Snehita Kolli | Aspiring Web Developer
         </a>
 
+        <!-- Toggle shows with small screens -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar" aria-controls="navBar" 
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
+        <!-- NavBar links -->
         <div class="collapse navbar-collapse" id="navBar">
             <ul class="navbar-nav">
                 <li class="nav-item ms-auto">
@@ -58,21 +62,23 @@
         </div>
     </nav>
 
+    <!-- Container for everything else-->
     <div class="container-fluid">
         <div class="col xs 12">
             <div id="welcome">
                 <h2 class="ms9 text-center">
-                    <span class="text">
-                        <span class="name">Snehita Kolli</span>
-                    </span>
-
+                    
                     <div data-aos="fade-up" data-aos-duration="800"><img src="./assets/sneha1.jpg"
                         alt="Snehita Kolli picture" class="img-center" width="250" height="250">
                     </div>
+                    <span class="text">
+                        <span class="name">Snehita Kolli</span>
+                    </span>
                 </h2>
             </div>
         </div>
 
+        <!-- About Me Here -->
         <div class="col xs 12 section">
             <div id="about-me">
                 <div data-aos="fade-up" data-aos-duration="800">
@@ -85,13 +91,14 @@
                         I have strong skills and ability in writing clean and efficient code. 
 
                         <br><br> Currently, I am enrolled in the UC Berkeley Extension Coding Bootcamp to further my goal of receiving a Certification in Full Stack Engineering. I am hoping to use this certificate in conjunction with my background in medical sciences to develop user-friendly web applications for patients. 
-                        <br><br> With each project, I aim to eange my audience with an effective, smooth, and problem-free user experience. Most recently, I applied my skills in a project where I worked with my team to create an application that creates the perfect Friday night in. I assisted with creating the webpage layout, as well as creating a visula experience that is reflective of the purpose of the application. 
-                        Excited to further enhance my skills in the future, as part of a fast-paced, quality-driven team in order to build better experiences for users on the web.
+                        <br><br> With each project, I aim to engage my audience with an effective, smooth, and problem-free user experience. Most recently, I applied my skills in a project where I worked with my team to create an application that creates the perfect Friday night in. I assisted with creating the webpage layout, as well as creating a visula experience that is reflective of the purpose of the application. 
+                        I am excited to further enhance my skills in the future as part of a fast-paced, quality-driven team in order to build better experiences for users on the web.
                     </p>
                 </div>
             </div>
         </div>
 
+        <!-- Portfolio Here-->
         <div class="col xs 12 section">
             <div id="portfolio">
                 <h3 class="text-center title">Portfolio</h3>
@@ -118,15 +125,17 @@
 
                             <div class="col col-12 col-sm-5 mb-2 d-flex align-items-stretch">
                                 <div class="card text-center">
-                                    <h3 class="h3">Code Quiz</h3>
-                                    <img src="./assets/codeQuiz.png" class="card-img-top" alt="Coding Quiz">
+                                    <h3 class="h3">Weather Dashboard</h3>
+                                    <img src="./assets/weather.png" class="card-img-top" alt="Weather Dashboard">
                                     <div class="card-body">
                                         <p class="lead">
-                                            Take this coding quiz to test your knowledge about basic coding concepts. Time and points are deducted for every wrong question. Users will be able to log and save their high scores.
+                                            Check the current forecast and 5-day forecast for a city. Users are able to search for the city, with the city later on added to the search history. Cities saved within the search history can be accessed once again to check the weather.
                                         </p>
-                                        <p class="lead">Uses: JavaScript, HTML, CSS</p>
-                                        <a href="https://snehitak20.github.io/under-the-sea/" class="btn btn-secondary">Code Quiz</a>
-                                        <a href="https://github.com/snehitak20/under-the-sea" class="btn btn-secondary"><i class="fa-brands fa-github">Github</i></a>
+                                        <p class="lead">
+                                            Uses: JavaScript, HTML, CSS
+                                        </p>
+                                        <a href="https://snehitak20.github.io/chance-of-meatballs/" class="btn btn-secondary">Weather Dashboard</a>
+                                        <a href="https://github.com/snehitak20/chance-of-meatballs" class="btn btn-secondary"><i class="fa-brands fa-github">Github</i></a>
                                     </div>
                                 </div>
                             </div>
@@ -137,17 +146,15 @@
                         <div class="row justify-content-center">
                             <div class="col col-12 col-sm-5 mb-2 d-flex align-items-stretch">
                                 <div class="card text-center">
-                                    <h3 class="h3">Weather Dashboard</h3>
-                                    <img src="./assets/weather.png" class="card-img-top" alt="Weather Dashboard">
+                                    <h3 class="h3">Code Quiz</h3>
+                                    <img src="./assets/codeQuiz.png" class="card-img-top" alt="Coding Quiz">
                                     <div class="card-body">
                                         <p class="lead">
-                                            Check the current and future weather for a city. Users are able to generate the current and future five-day forecast for the city that is searched. Cities are saved to the search history, and can be accessed once again to check the weather.
+                                            Take this coding quiz to test your knowledge about basic coding concepts. For every wrong question, 5 seconds and 1 point are taken off. Users are able to log and save their high scores.
                                         </p>
-                                        <p class="lead">
-                                            Uses: JavaScript, HTML, CSS
-                                        </p>
-                                        <a href="https://snehitak20.github.io/chance-of-meatballs/" class="btn btn-secondary">Weather Dashboard</a>
-                                        <a href="https://github.com/snehitak20/chance-of-meatballs" class="btn btn-secondary"><i class="fa-brands fa-github">Github</i></a>
+                                        <p class="lead">Uses: JavaScript, HTML, CSS</p>
+                                        <a href="https://snehitak20.github.io/under-the-sea/" class="btn btn-secondary">Code Quiz</a>
+                                        <a href="https://github.com/snehitak20/under-the-sea" class="btn btn-secondary"><i class="fa-brands fa-github">Github</i></a>
                                     </div>
                                 </div>
                             </div>
@@ -174,6 +181,7 @@
             </div>
         </div>
 
+        <!-- Contact Links here -->
         <div class="col xs 12 section">
             <div id="contact">
                 <div data-aos="fade-up" data-aos-duration="1000">
@@ -211,9 +219,11 @@
         </footer>
     </div>
     
+    <!-- Bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     
+    <!-- Animate on Scroll script -->
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script>
         AOS.init();
