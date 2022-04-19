@@ -36,6 +36,9 @@
     margin-right: auto;
 }
 
+.welcome {
+    margin: auto;
+}
 .ms9 {
     position: relative;
     font-weight: 400;
@@ -46,7 +49,7 @@
 .ms9 .text-wrapper {
     position: relative;
     display: inline-block;
-    padding-top: 0.2em;
+    padding-top: auto;
     padding-right: 0.05em;
     padding-bottom: 0.1em;
     overflow: hidden;
