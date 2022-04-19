@@ -3,21 +3,24 @@
 }
 
 .portfolio { 
-    background-color: #EDC7B7;
+    background-color: #EEE2DC;
     color: #123C69;
 }
 
 .card-body {
-    background-color: #EDC7B7;
+    background-color: #EEE2DC;
     color: #123C69;
 }
 
 .navbar {
-    background-color: #EDC7B7;
+    background-color: #EEE2DC;
     color: #123C69;
-    text-align: right;
+    justify-content: right;
 }
 
+#navBar {
+    justify-content: right;
+}
 .navbar-brand{ 
     font-size: 16px;
 }
@@ -25,20 +28,22 @@
     text-align: right;
     color:#123C69;
 }
+
+
 .img-center{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.ml9 {
+.ms9 {
     position: relative;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 2.5em;
     color: #AC3B61;
 }
 
-.ml9 .text-wrapper {
+.ms9 .text-wrapper {
     position: relative;
     display: inline-block;
     padding-top: 0.2em;
@@ -47,7 +52,7 @@
     overflow: hidden;
 }
 
-.ml9 .letter {
+.ms9 .letter {
     transform-origin: 50% 100%;
     display: inline-block;
     line-height: 1em;
@@ -58,18 +63,18 @@
 }
 
 .title{
-    padding-bottom:10px;
+    padding-bottom: 10px;
     margin-top: 20px;
     color: #AC3B61;
 }
 
 .h3 {
-    background-color: #EDC7B7;
+    background-color: #EEE2DC;
     color: #AC3B61;
 }
 
 .card{
-    background-color: #EDC7B7;
+    background-color: #EEE2DC;
 }
 
 .contact-links a{
