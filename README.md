@@ -5,7 +5,7 @@
 
 ## Description
 
-An updated portfolio that displays the skills that have been most recently learned. All projects have an image, summary, links to the deployed webpage and respective GitHub repositories, and the technologies used. GitHub profile has been updated, and all pinned repositories have a comprehensive ReadMe.md. LinkedIn page has been updated with skills added, a professional summary, and links to the GitHub profile and professional portfolio. A resume is available for download on the deployed webpage. The "Contact" section includes links for email, phone, LinkedIn, and GitHub profile
+An updated portfolio that displays the skills that have been most recently learned. All projects have an image, summary, links to the deployed webpage and respective GitHub repositories, and the technologies used. GitHub profile has been updated, and all pinned repositories have a comprehensive ReadMe.md. LinkedIn page has been updated with skills added, a professional summary, and links to the GitHub profile and professional portfolio. A resume is available for download on the deployed webpage. The "Contact" section includes links for email, phone, LinkedIn, and GitHub profile. This is a mobile-first webpage, so it will support different media screens. 
 
 ## Technologies Used
 

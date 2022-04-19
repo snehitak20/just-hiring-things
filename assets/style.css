@@ -1,5 +1,6 @@
 * { 
     font-family: 'Montserrat', sans-serif;
+    image-resolution: inherit;
 }
 
 .portfolio { 
@@ -23,10 +24,14 @@
 }
 .navbar-brand{ 
     font-size: 16px;
+    color:#123C69;
+    font-weight: 200;
 }
+
 .nav-item {
     text-align: right;
     color:#123C69;
+    font-weight: 200;
 }
 
 
@@ -41,8 +46,8 @@
 }
 .ms9 {
     position: relative;
-    font-weight: 400;
-    font-size: 2.5em;
+    font-weight: 500;
+    font-size: 4.5em;
     color: #AC3B61;
 }
 
@@ -72,8 +77,9 @@
 }
 
 .h3 {
-    background-color: #EEE2DC;
+    background-color: #EDC7b7;
     color: #AC3B61;
+    font-size: larger;
 }
 
 .card{
